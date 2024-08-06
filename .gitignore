@@ -1,1 +1,31 @@
+# Ignore config.env
 config.env
+
+# Other common ignore patterns
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+logs/
+npm-debug.log*
+
+# Ignore environment variables
+.env
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore dependency directories
+vendor/
+composer.lock
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore OS specific files
+Thumbs.db
